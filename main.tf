@@ -5,5 +5,6 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = var.countname [count.index]
+    module = "x"
   }
 }
