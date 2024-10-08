@@ -5,6 +5,6 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "sriram"
-    
+    module ="x"
   }
 }
